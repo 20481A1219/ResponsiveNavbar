@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Adding custom css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- header section -->
+<header>
+    <a href="#" class="logo" style="text-decoration: none;"><i class="fas fa-utensils" ></i>Resto.</a>
+
+    <nav class="navbar">
+        <a href="#home" class="active" style="text-decoration: none;">home</a>
+        <a href="#dishes" style="text-decoration: none;">dishes</a>
+        <a href="#about" style="text-decoration: none;">about</a>
+        <a href="#memu" style="text-decoration: none;">menu</a>
+        <a href="#review" style="text-decoration: none;">review</a>
+        <a href="#order" style="text-decoration: none;">order</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart" style="text-decoration: none;"></a>
+        <a href="#" class="fas fa-shopping-cart" style="text-decoration: none;"></a>
+    </div>
+
+</header>
+<!-- header ends -->
+
+<!-- search form  -->
+
+<form action="" id="search-form">
+    <input type="search" name="" placeholder="Search here..." id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+    
+<!-- search form ends -->
+
+
+<script src="index.js"></script>    
+</body>
+</html>
